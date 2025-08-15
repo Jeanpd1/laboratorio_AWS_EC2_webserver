@@ -19,11 +19,10 @@ Este projeto documenta a criação de um servidor web de teste na AWS utilizando
   ![Par de Chaves](https://github.com/Jeanpd1/laboratorio_AWS_EC2_webserver/blob/main/Prints%20confg%20EC2/4%20-%20par%20de%20chaves.png?raw=true)
   
   **No caso do print o par de chaves está com o meu nome, troque para o nome que preferir.**
-  
+<br>
   
   ![config do par de chaves](https://github.com/Jeanpd1/laboratorio_AWS_EC2_webserver/blob/main/Prints%20confg%20EC2/4.1%20-%20par%20de%20chaves.png?raw=true)
-
-  
+<br>  
   
    **O formato do arquivo da chave privada deve ser de acordo com o seu sistema. Eu usei em '.pem' pois uso Linux. Caso use windows, será necessário ter o Putty e mudar essa configuração para '.ppk'.**
   
@@ -33,8 +32,7 @@ Este projeto documenta a criação de um servidor web de teste na AWS utilizando
   ![Detalhes avançados 2](https://github.com/Jeanpd1/laboratorio_AWS_EC2_webserver/blob/main/Prints%20confg%20EC2/7.2%20-%20detalhes%20avan%C3%A7ados.png?raw=true)
   ![Detalhes avançados 3](https://github.com/Jeanpd1/laboratorio_AWS_EC2_webserver/blob/main/Prints%20confg%20EC2/7.3%20-%20detalhes%20avan%C3%A7ados.png?raw=true)
   ![Detalhes avançados 4](https://github.com/Jeanpd1/laboratorio_AWS_EC2_webserver/blob/main/Prints%20confg%20EC2/7.4%20-%20detalhes%20avan%C3%A7ados.png?raw=true)
-
-  
+  <br>
 
 * **Códigos Utilizados no "Dados de usuário":**
     ```bash
@@ -44,12 +42,12 @@ Este projeto documenta a criação de um servidor web de teste na AWS utilizando
     systemctl start httpd
     echo '<html><h1>Olá do seu servidor web!</h1></html>' > /var/www/html/index.html
     ```
-    
+ <br>   
 
 * **Print do Servidor Web Funcionando:**
     ![Primeiro Server Funcionando](https://github.com/Jeanpd1/laboratorio_AWS_EC2_webserver/blob/main/Prints%20confg%20EC2/primeiro%20server%20funcionando.png?raw=true)
   **Para testar, basta copiar o Ipv4 público da intância e executar na nova aba (http://'ipv4_publico' sem aspas).**
-
+<br>
 
 # Parte 2: Instância EC2 via CloudShell
 
@@ -58,6 +56,7 @@ Este projeto documenta a criação de um servidor web de teste na AWS utilizando
     * **Par de Chaves:** parchave-seunome
     * **IP Público:** Será de acordo com a sua instância, ele é pego em EC2->Instâncias->Clique no nome da sua instância, no campo "Detalhes em "Endereço IPv4 público"
     * **Grupo de segurança:** seunome-grupo
+<br>
 
 * **Comandos Utilizados no CloudShell:**
     ```bash
@@ -105,15 +104,19 @@ Este projeto documenta a criação de um servidor web de teste na AWS utilizando
     echo "Acesse o console do EC2 para copiar o IP público e testar o acesso."
     echo "================================================================================"
     ```
+<br>
 
 * **Print do Servidor Web via CloudShell Funcionando:**
     ![WebServer via CloudShell](https://github.com/Jeanpd1/laboratorio_AWS_EC2_webserver/blob/main/Prints%20confg%20EC2/segundo%20server%20funcionando.png?raw=true)
+<br>
 
 ## Encerramento
 
 * **Print da tela com as instâncias sendo encerradas:**
     ![Instâncias encerradas](https://github.com/Jeanpd1/laboratorio_AWS_EC2_webserver/blob/main/Prints%20confg%20EC2/8%20-%20inst%C3%A2ncias%20encerradas.png?raw=true)
+  <br>
   **Encerre todas as Instâncias para não gerar custos.**
+<br>
 
 ## Conclusão
 
