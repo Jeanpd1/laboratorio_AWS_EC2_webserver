@@ -8,7 +8,7 @@ Este projeto documenta a criação de um servidor web de teste na AWS utilizando
 
 - Uma conta registrada na [![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)](https://aws.amazon.com)
 ------------------------------------------------------
-<br><br><br>
+<br>
 
 # Parte 1: Instância EC2 via Console AWS
 
