@@ -12,7 +12,7 @@ Este projeto documenta a criação de um servidor web de teste na AWS utilizando
     * **IP Público:** Será de acordo com a sua instância, ele é pego em EC2->Instâncias->Clique no nome da sua instância, no campo "Detalhes em "Endereço IPv4 público"
 
 * **Print da Tela de Configuração:**
-    !(https://github.com/Jeanpd1/laboratorio_AWS_EC2_webserver/blob/main/Prints%20confg%20EC2/1-nomes%20e%20tags.png?raw=true)
+    ![Nomes e Tags](https://github.com/Jeanpd1/laboratorio_AWS_EC2_webserver/blob/main/Prints%20confg%20EC2/1-nomes%20e%20tags.png?raw=true)
 
 * **Códigos Utilizados no "Dados de usuário":**
     ```bash
