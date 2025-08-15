@@ -17,15 +17,15 @@ Este projeto documenta a criação de um servidor web de teste na AWS utilizando
   ![AMI da VM](https://github.com/Jeanpd1/laboratorio_AWS_EC2_webserver/blob/main/Prints%20confg%20EC2/2%20-%20AMI%20da%20VM.png?raw=true)
   ![Tipo de Instância](https://github.com/Jeanpd1/laboratorio_AWS_EC2_webserver/blob/main/Prints%20confg%20EC2/3%20-%20Tipo%20de%20inst%C3%A2ncia.png?raw=true)
   ![Par de Chaves](https://github.com/Jeanpd1/laboratorio_AWS_EC2_webserver/blob/main/Prints%20confg%20EC2/4%20-%20par%20de%20chaves.png?raw=true)
-  
+  <br>
   **No caso do print o par de chaves está com o meu nome, troque para o nome que preferir.**
-<br>
+<br><br>
   
   ![config do par de chaves](https://github.com/Jeanpd1/laboratorio_AWS_EC2_webserver/blob/main/Prints%20confg%20EC2/4.1%20-%20par%20de%20chaves.png?raw=true)
-<br>  
+<br><br>
   
    **O formato do arquivo da chave privada deve ser de acordo com o seu sistema. Eu usei em '.pem' pois uso Linux. Caso use windows, será necessário ter o Putty e mudar essa configuração para '.ppk'.**
-  
+  <br>
   ![Configuração e rede](https://github.com/Jeanpd1/laboratorio_AWS_EC2_webserver/blob/main/Prints%20confg%20EC2/5%20-%20%20Configura%C3%A7%C3%A3o%20de%20rede.png?raw=true)
   ![Armazenamento](https://github.com/Jeanpd1/laboratorio_AWS_EC2_webserver/blob/main/Prints%20confg%20EC2/6%20-%20Armazenamento.png?raw=true)
   ![Detalhes avançados 1](https://github.com/Jeanpd1/laboratorio_AWS_EC2_webserver/blob/main/Prints%20confg%20EC2/7.1%20-%20detalhes%20avan%C3%A7ados.png?raw=true)
@@ -42,7 +42,7 @@ Este projeto documenta a criação de um servidor web de teste na AWS utilizando
     systemctl start httpd
     echo '<html><h1>Olá do seu servidor web!</h1></html>' > /var/www/html/index.html
     ```
- <br>   
+ <br><br>
 
 * **Print do Servidor Web Funcionando:**
     ![Primeiro Server Funcionando](https://github.com/Jeanpd1/laboratorio_AWS_EC2_webserver/blob/main/Prints%20confg%20EC2/primeiro%20server%20funcionando.png?raw=true)
@@ -56,7 +56,7 @@ Este projeto documenta a criação de um servidor web de teste na AWS utilizando
     * **Par de Chaves:** parchave-seunome
     * **IP Público:** Será de acordo com a sua instância, ele é pego em EC2->Instâncias->Clique no nome da sua instância, no campo "Detalhes em "Endereço IPv4 público"
     * **Grupo de segurança:** seunome-grupo
-<br>
+<br><br>
 
 * **Comandos Utilizados no CloudShell:**
     ```bash
@@ -114,9 +114,9 @@ Este projeto documenta a criação de um servidor web de teste na AWS utilizando
 
 * **Print da tela com as instâncias sendo encerradas:**
     ![Instâncias encerradas](https://github.com/Jeanpd1/laboratorio_AWS_EC2_webserver/blob/main/Prints%20confg%20EC2/8%20-%20inst%C3%A2ncias%20encerradas.png?raw=true)
-  <br>
+  <br><br>
   **Encerre todas as Instâncias para não gerar custos.**
-<br>
+<br><br>
 
 ## Conclusão
 
