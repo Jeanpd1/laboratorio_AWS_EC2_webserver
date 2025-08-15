@@ -1,6 +1,13 @@
 # Laboratório AWS: Explorando o Amazon EC2
 
 Este projeto documenta a criação de um servidor web de teste na AWS utilizando uma instância EC2. O laboratório foi realizado de duas formas: através do console de gerenciamento e via CloudShell.
+-------------------------------------------
+## Requisitos
+
+- [![Uma conta registrada na AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)](https://aws.amazon.com)
+- [![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)](https://aws.amazon.com)
+------------------------------------------------------
+<br><br><br>
 
 # Parte 1: Instância EC2 via Console AWS
 
