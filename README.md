@@ -25,7 +25,8 @@ Este projeto documenta a criação de um servidor web de teste na AWS utilizando
 <br><br>
   
    **O formato do arquivo da chave privada deve ser de acordo com o seu sistema. Eu usei em '.pem' pois uso Linux. Caso use windows, será necessário ter o Putty e mudar essa configuração para '.ppk'.**
-  <br>
+  <br><br><br>
+  
   ![Configuração e rede](https://github.com/Jeanpd1/laboratorio_AWS_EC2_webserver/blob/main/Prints%20confg%20EC2/5%20-%20%20Configura%C3%A7%C3%A3o%20de%20rede.png?raw=true)
   ![Armazenamento](https://github.com/Jeanpd1/laboratorio_AWS_EC2_webserver/blob/main/Prints%20confg%20EC2/6%20-%20Armazenamento.png?raw=true)
   ![Detalhes avançados 1](https://github.com/Jeanpd1/laboratorio_AWS_EC2_webserver/blob/main/Prints%20confg%20EC2/7.1%20-%20detalhes%20avan%C3%A7ados.png?raw=true)
